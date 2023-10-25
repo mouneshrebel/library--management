@@ -1,0 +1,84 @@
+.inputbox {
+  height: 40px;
+  width: 90% !important;
+}
+.error {
+  color: red;
+  font-size: small;
+}
+@media (min-width: 600px) and (max-width: 830px) {
+  .dashBoard h4 {
+    font-size: small;
+  }
+  .dashBoard p {
+    font-size: small;
+  }
+  .totalBooksp {
+    padding-left: 2.5% !important;
+  }
+  .Availablep {
+    padding-left: 4% !important;
+  }
+  .AddBookdiv {
+    margin-right: 0% !important ;
+  }
+  .AddBook {
+    font-size: small !important;
+    margin-right: 0% !important ;
+  }
+}
+@media (max-width: 600px) {
+  .dashBoard h4 {
+    font-size: small;
+  }
+  .dashBoard p {
+    font-size: small;
+    margin-bottom: 0% !important;
+  }
+  .idh {
+    padding-left: 1% !important;
+    padding-right: 3% !important;
+    width: fit-content;
+  }
+  .idp {
+    padding-left: 1% !important;
+  }
+  .Titleh {
+    padding-left: 1% !important;
+    padding-right: 5% !important;
+    width: fit-content;
+  }
+  .Titlep {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    width: fit-content;
+  }
+  .Authorh {
+    padding-left: 1% !important;
+    padding-right: 0% !important;
+    width: fit-content;
+  }
+  .Authorp {
+    padding-left: 4% !important;
+    padding-right: 0% !important;
+  }
+  .Availableh {
+    padding-left: 6% !important;
+    padding-right: 0% !important;
+  }
+  .Availablep {
+    padding-left: 17% !important;
+    padding-right: 0% !important;
+  }
+  .AddBookdiv {
+    margin-right: 0% !important ;
+  }
+  .AddBook {
+    font-size: small !important;
+    margin-right: 0% !important ;
+  }
+  .btn {
+    font-size: small !important;
+    margin-bottom: 6% !important;
+  }
+}
